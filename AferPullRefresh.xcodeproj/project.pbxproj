@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425AF5451B6F382300C4BFFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5441B6F382300C4BFFA /* main.m */; };
+		425AF5481B6F382300C4BFFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5471B6F382300C4BFFA /* AppDelegate.m */; };
+		425AF54B1B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */; };
+		425AF54E1B6F382300C4BFFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF54D1B6F382300C4BFFA /* ViewController.m */; };
+		425AF5511B6F382300C4BFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425AF54F1B6F382300C4BFFA /* Main.storyboard */; };
+		425AF5531B6F382300C4BFFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5521B6F382300C4BFFA /* Images.xcassets */; };
+		425AF5561B6F382300C4BFFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5541B6F382300C4BFFA /* LaunchScreen.xib */; };
+		425AF5621B6F382400C4BFFA /* AferPullRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		425AF55C1B6F382300C4BFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425AF5371B6F382300C4BFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 425AF53E1B6F382300C4BFFA;
+			remoteInfo = AferPullRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AferPullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425AF5431B6F382300C4BFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425AF5441B6F382300C4BFFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425AF5461B6F382300C4BFFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425AF5471B6F382300C4BFFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425AF54A1B6F382300C4BFFA /* AferPullRefresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AferPullRefresh.xcdatamodel; sourceTree = "<group>"; };
+		425AF54C1B6F382300C4BFFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		425AF54D1B6F382300C4BFFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		425AF5501B6F382300C4BFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		425AF5521B6F382300C4BFFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		425AF5551B6F382300C4BFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AferPullRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425AF5601B6F382300C4BFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AferPullRefreshTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425AF53C1B6F382300C4BFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425AF5581B6F382300C4BFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425AF5361B6F382300C4BFFA = {
+			isa = PBXGroup;
+			children = (
+				425AF5411B6F382300C4BFFA /* AferPullRefresh */,
+				425AF55E1B6F382300C4BFFA /* AferPullRefreshTests */,
+				425AF5401B6F382300C4BFFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425AF5401B6F382300C4BFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */,
+				425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425AF5411B6F382300C4BFFA /* AferPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				425AF5461B6F382300C4BFFA /* AppDelegate.h */,
+				425AF5471B6F382300C4BFFA /* AppDelegate.m */,
+				425AF54C1B6F382300C4BFFA /* ViewController.h */,
+				425AF54D1B6F382300C4BFFA /* ViewController.m */,
+				425AF54F1B6F382300C4BFFA /* Main.storyboard */,
+				425AF5521B6F382300C4BFFA /* Images.xcassets */,
+				425AF5541B6F382300C4BFFA /* LaunchScreen.xib */,
+				425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */,
+				425AF5421B6F382300C4BFFA /* Supporting Files */,
+			);
+			path = AferPullRefresh;
+			sourceTree = "<group>";
+		};
+		425AF5421B6F382300C4BFFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425AF5431B6F382300C4BFFA /* Info.plist */,
+				425AF5441B6F382300C4BFFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425AF55E1B6F382300C4BFFA /* AferPullRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */,
+				425AF55F1B6F382300C4BFFA /* Supporting Files */,
+			);
+			path = AferPullRefreshTests;
+			sourceTree = "<group>";
+		};
+		425AF55F1B6F382300C4BFFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425AF5601B6F382300C4BFFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425AF53E1B6F382300C4BFFA /* AferPullRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425AF5651B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefresh" */;
+			buildPhases = (
+				425AF53B1B6F382300C4BFFA /* Sources */,
+				425AF53C1B6F382300C4BFFA /* Frameworks */,
+				425AF53D1B6F382300C4BFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AferPullRefresh;
+			productName = AferPullRefresh;
+			productReference = 425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		425AF55A1B6F382300C4BFFA /* AferPullRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425AF5681B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefreshTests" */;
+			buildPhases = (
+				425AF5571B6F382300C4BFFA /* Sources */,
+				425AF5581B6F382300C4BFFA /* Frameworks */,
+				425AF5591B6F382300C4BFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425AF55D1B6F382300C4BFFA /* PBXTargetDependency */,
+			);
+			name = AferPullRefreshTests;
+			productName = AferPullRefreshTests;
+			productReference = 425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425AF5371B6F382300C4BFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Afer;
+				TargetAttributes = {
+					425AF53E1B6F382300C4BFFA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					425AF55A1B6F382300C4BFFA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 425AF53E1B6F382300C4BFFA;
+					};
+				};
+			};
+			buildConfigurationList = 425AF53A1B6F382300C4BFFA /* Build configuration list for PBXProject "AferPullRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425AF5361B6F382300C4BFFA;
+			productRefGroup = 425AF5401B6F382300C4BFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425AF53E1B6F382300C4BFFA /* AferPullRefresh */,
+				425AF55A1B6F382300C4BFFA /* AferPullRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425AF53D1B6F382300C4BFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425AF5511B6F382300C4BFFA /* Main.storyboard in Resources */,
+				425AF5561B6F382300C4BFFA /* LaunchScreen.xib in Resources */,
+				425AF5531B6F382300C4BFFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425AF5591B6F382300C4BFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425AF53B1B6F382300C4BFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425AF54B1B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld in Sources */,
+				425AF5481B6F382300C4BFFA /* AppDelegate.m in Sources */,
+				425AF54E1B6F382300C4BFFA /* ViewController.m in Sources */,
+				425AF5451B6F382300C4BFFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425AF5571B6F382300C4BFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425AF5621B6F382400C4BFFA /* AferPullRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425AF55D1B6F382300C4BFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 425AF53E1B6F382300C4BFFA /* AferPullRefresh */;
+			targetProxy = 425AF55C1B6F382300C4BFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425AF54F1B6F382300C4BFFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425AF5501B6F382300C4BFFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		425AF5541B6F382300C4BFFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425AF5551B6F382300C4BFFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425AF5631B6F382400C4BFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		425AF5641B6F382400C4BFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425AF5661B6F382400C4BFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AferPullRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425AF5671B6F382400C4BFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AferPullRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		425AF5691B6F382400C4BFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AferPullRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AferPullRefresh.app/AferPullRefresh";
+			};
+			name = Debug;
+		};
+		425AF56A1B6F382400C4BFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AferPullRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AferPullRefresh.app/AferPullRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425AF53A1B6F382300C4BFFA /* Build configuration list for PBXProject "AferPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425AF5631B6F382400C4BFFA /* Debug */,
+				425AF5641B6F382400C4BFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425AF5651B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425AF5661B6F382400C4BFFA /* Debug */,
+				425AF5671B6F382400C4BFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		425AF5681B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425AF5691B6F382400C4BFFA /* Debug */,
+				425AF56A1B6F382400C4BFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				425AF54A1B6F382300C4BFFA /* AferPullRefresh.xcdatamodel */,
+			);
+			currentVersion = 425AF54A1B6F382300C4BFFA /* AferPullRefresh.xcdatamodel */;
+			path = AferPullRefresh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 425AF5371B6F382300C4BFFA /* Project object */;
+}
