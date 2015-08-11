@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIScrollView+AferPullLoad.h"
+#import "UIScrollView+PullLoad.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, AferPullDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *table;
 
 @end
 
@@ -16,12 +19,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _table.backgroundColor = [UIColor grayColor];
+    _table.pulldelegatee = self;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//- (void)scrollView:(UIScrollView *)scrollView loadWithState:(LoadState)state {
+//    
+//}
+
+- (void)scrollView:(UIScrollView *)scrollView loadWithState:(AferLoadState)state {
+    
 }
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    return cell;
+}
+
+
 
 @end

@@ -15,6 +15,7 @@
 		425AF5531B6F382300C4BFFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5521B6F382300C4BFFA /* Images.xcassets */; };
 		425AF5561B6F382300C4BFFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5541B6F382300C4BFFA /* LaunchScreen.xib */; };
 		425AF5621B6F382400C4BFFA /* AferPullRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */; };
+		425AF56D1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AferPullRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425AF5601B6F382300C4BFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AferPullRefreshTests.m; sourceTree = "<group>"; };
+		425AF56B1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AferPullLoad.h"; sourceTree = "<group>"; };
+		425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AferPullLoad.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				425AF5541B6F382300C4BFFA /* LaunchScreen.xib */,
 				425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */,
 				425AF5421B6F382300C4BFFA /* Supporting Files */,
+				425AF56B1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.h */,
+				425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */,
 			);
 			path = AferPullRefresh;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				425AF54B1B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld in Sources */,
+				425AF56D1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m in Sources */,
 				425AF5481B6F382300C4BFFA /* AppDelegate.m in Sources */,
 				425AF54E1B6F382300C4BFFA /* ViewController.m in Sources */,
 				425AF5451B6F382300C4BFFA /* main.m in Sources */,
