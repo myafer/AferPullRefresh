@@ -10,23 +10,16 @@
 		425AF5451B6F382300C4BFFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5441B6F382300C4BFFA /* main.m */; };
 		425AF5481B6F382300C4BFFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5471B6F382300C4BFFA /* AppDelegate.m */; };
 		425AF54B1B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */; };
-		425AF54E1B6F382300C4BFFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF54D1B6F382300C4BFFA /* ViewController.m */; };
 		425AF5511B6F382300C4BFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425AF54F1B6F382300C4BFFA /* Main.storyboard */; };
 		425AF5531B6F382300C4BFFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5521B6F382300C4BFFA /* Images.xcassets */; };
 		425AF5561B6F382300C4BFFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425AF5541B6F382300C4BFFA /* LaunchScreen.xib */; };
-		425AF5621B6F382400C4BFFA /* AferPullRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */; };
-		425AF56D1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */; };
+		428B9E6B1CD3422D00B0D5C9 /* UIScrollView+AFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E6A1CD3422D00B0D5C9 /* UIScrollView+AFRefresh.m */; };
+		428B9E6F1CD3428900B0D5C9 /* AFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E6E1CD3428900B0D5C9 /* AFRefreshHeader.m */; };
+		428B9E731CD3435D00B0D5C9 /* AFRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E721CD3435D00B0D5C9 /* AFRefreshFooter.m */; };
+		428B9E761CD347AC00B0D5C9 /* ExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E751CD347AC00B0D5C9 /* ExampleTableViewController.m */; };
+		428B9E7A1CD3493700B0D5C9 /* AFRefreshBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E791CD3493700B0D5C9 /* AFRefreshBase.m */; };
+		428B9E7D1CD3512D00B0D5C9 /* UIView+FrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B9E7C1CD3512D00B0D5C9 /* UIView+FrameExt.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		425AF55C1B6F382300C4BFFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 425AF5371B6F382300C4BFFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 425AF53E1B6F382300C4BFFA;
-			remoteInfo = AferPullRefresh;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AferPullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,27 +28,25 @@
 		425AF5461B6F382300C4BFFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		425AF5471B6F382300C4BFFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		425AF54A1B6F382300C4BFFA /* AferPullRefresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AferPullRefresh.xcdatamodel; sourceTree = "<group>"; };
-		425AF54C1B6F382300C4BFFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		425AF54D1B6F382300C4BFFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		425AF5501B6F382300C4BFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		425AF5521B6F382300C4BFFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		425AF5551B6F382300C4BFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AferPullRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		425AF5601B6F382300C4BFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AferPullRefreshTests.m; sourceTree = "<group>"; };
-		425AF56B1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AferPullLoad.h"; sourceTree = "<group>"; };
-		425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AferPullLoad.m"; sourceTree = "<group>"; };
+		428B9E691CD3422D00B0D5C9 /* UIScrollView+AFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AFRefresh.h"; sourceTree = "<group>"; };
+		428B9E6A1CD3422D00B0D5C9 /* UIScrollView+AFRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AFRefresh.m"; sourceTree = "<group>"; };
+		428B9E6D1CD3428900B0D5C9 /* AFRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRefreshHeader.h; sourceTree = "<group>"; };
+		428B9E6E1CD3428900B0D5C9 /* AFRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRefreshHeader.m; sourceTree = "<group>"; };
+		428B9E711CD3435D00B0D5C9 /* AFRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRefreshFooter.h; sourceTree = "<group>"; };
+		428B9E721CD3435D00B0D5C9 /* AFRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRefreshFooter.m; sourceTree = "<group>"; };
+		428B9E741CD347AC00B0D5C9 /* ExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableViewController.h; sourceTree = "<group>"; };
+		428B9E751CD347AC00B0D5C9 /* ExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewController.m; sourceTree = "<group>"; };
+		428B9E781CD3493700B0D5C9 /* AFRefreshBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRefreshBase.h; sourceTree = "<group>"; };
+		428B9E791CD3493700B0D5C9 /* AFRefreshBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRefreshBase.m; sourceTree = "<group>"; };
+		428B9E7B1CD3512D00B0D5C9 /* UIView+FrameExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExt.h"; sourceTree = "<group>"; };
+		428B9E7C1CD3512D00B0D5C9 /* UIView+FrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		425AF53C1B6F382300C4BFFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		425AF5581B6F382300C4BFFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				425AF5411B6F382300C4BFFA /* AferPullRefresh */,
-				425AF55E1B6F382300C4BFFA /* AferPullRefreshTests */,
 				425AF5401B6F382300C4BFFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */,
-				425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,17 +75,16 @@
 		425AF5411B6F382300C4BFFA /* AferPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				428B9E681CD3414700B0D5C9 /* AFPullRefresh */,
 				425AF5461B6F382300C4BFFA /* AppDelegate.h */,
 				425AF5471B6F382300C4BFFA /* AppDelegate.m */,
-				425AF54C1B6F382300C4BFFA /* ViewController.h */,
-				425AF54D1B6F382300C4BFFA /* ViewController.m */,
+				428B9E741CD347AC00B0D5C9 /* ExampleTableViewController.h */,
+				428B9E751CD347AC00B0D5C9 /* ExampleTableViewController.m */,
 				425AF54F1B6F382300C4BFFA /* Main.storyboard */,
 				425AF5521B6F382300C4BFFA /* Images.xcassets */,
 				425AF5541B6F382300C4BFFA /* LaunchScreen.xib */,
 				425AF5491B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld */,
 				425AF5421B6F382300C4BFFA /* Supporting Files */,
-				425AF56B1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.h */,
-				425AF56C1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m */,
 			);
 			path = AferPullRefresh;
 			sourceTree = "<group>";
@@ -110,21 +98,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		425AF55E1B6F382300C4BFFA /* AferPullRefreshTests */ = {
+		428B9E681CD3414700B0D5C9 /* AFPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				425AF5611B6F382300C4BFFA /* AferPullRefreshTests.m */,
-				425AF55F1B6F382300C4BFFA /* Supporting Files */,
+				428B9E771CD348F800B0D5C9 /* Base */,
+				428B9E701CD3433600B0D5C9 /* Footer */,
+				428B9E6C1CD3426600B0D5C9 /* Header */,
+				428B9E691CD3422D00B0D5C9 /* UIScrollView+AFRefresh.h */,
+				428B9E6A1CD3422D00B0D5C9 /* UIScrollView+AFRefresh.m */,
 			);
-			path = AferPullRefreshTests;
+			path = AFPullRefresh;
 			sourceTree = "<group>";
 		};
-		425AF55F1B6F382300C4BFFA /* Supporting Files */ = {
+		428B9E6C1CD3426600B0D5C9 /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				425AF5601B6F382300C4BFFA /* Info.plist */,
+				428B9E6D1CD3428900B0D5C9 /* AFRefreshHeader.h */,
+				428B9E6E1CD3428900B0D5C9 /* AFRefreshHeader.m */,
 			);
-			name = "Supporting Files";
+			name = Header;
+			sourceTree = "<group>";
+		};
+		428B9E701CD3433600B0D5C9 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				428B9E711CD3435D00B0D5C9 /* AFRefreshFooter.h */,
+				428B9E721CD3435D00B0D5C9 /* AFRefreshFooter.m */,
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+		428B9E771CD348F800B0D5C9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				428B9E781CD3493700B0D5C9 /* AFRefreshBase.h */,
+				428B9E791CD3493700B0D5C9 /* AFRefreshBase.m */,
+				428B9E7B1CD3512D00B0D5C9 /* UIView+FrameExt.h */,
+				428B9E7C1CD3512D00B0D5C9 /* UIView+FrameExt.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,39 +159,17 @@
 			productReference = 425AF53F1B6F382300C4BFFA /* AferPullRefresh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		425AF55A1B6F382300C4BFFA /* AferPullRefreshTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 425AF5681B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefreshTests" */;
-			buildPhases = (
-				425AF5571B6F382300C4BFFA /* Sources */,
-				425AF5581B6F382300C4BFFA /* Frameworks */,
-				425AF5591B6F382300C4BFFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				425AF55D1B6F382300C4BFFA /* PBXTargetDependency */,
-			);
-			name = AferPullRefreshTests;
-			productName = AferPullRefreshTests;
-			productReference = 425AF55B1B6F382300C4BFFA /* AferPullRefreshTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		425AF5371B6F382300C4BFFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Afer;
 				TargetAttributes = {
 					425AF53E1B6F382300C4BFFA = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					425AF55A1B6F382300C4BFFA = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 425AF53E1B6F382300C4BFFA;
 					};
 				};
 			};
@@ -197,7 +187,6 @@
 			projectRoot = "";
 			targets = (
 				425AF53E1B6F382300C4BFFA /* AferPullRefresh */,
-				425AF55A1B6F382300C4BFFA /* AferPullRefreshTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,13 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		425AF5591B6F382300C4BFFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,31 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428B9E6B1CD3422D00B0D5C9 /* UIScrollView+AFRefresh.m in Sources */,
+				428B9E761CD347AC00B0D5C9 /* ExampleTableViewController.m in Sources */,
 				425AF54B1B6F382300C4BFFA /* AferPullRefresh.xcdatamodeld in Sources */,
-				425AF56D1B6F3D1E00C4BFFA /* UIScrollView+AferPullLoad.m in Sources */,
+				428B9E7A1CD3493700B0D5C9 /* AFRefreshBase.m in Sources */,
 				425AF5481B6F382300C4BFFA /* AppDelegate.m in Sources */,
-				425AF54E1B6F382300C4BFFA /* ViewController.m in Sources */,
+				428B9E7D1CD3512D00B0D5C9 /* UIView+FrameExt.m in Sources */,
+				428B9E731CD3435D00B0D5C9 /* AFRefreshFooter.m in Sources */,
+				428B9E6F1CD3428900B0D5C9 /* AFRefreshHeader.m in Sources */,
 				425AF5451B6F382300C4BFFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		425AF5571B6F382300C4BFFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				425AF5621B6F382400C4BFFA /* AferPullRefreshTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		425AF55D1B6F382300C4BFFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 425AF53E1B6F382300C4BFFA /* AferPullRefresh */;
-			targetProxy = 425AF55C1B6F382300C4BFFA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		425AF54F1B6F382300C4BFFA /* Main.storyboard */ = {
@@ -294,6 +264,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -361,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AferPullRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qdai.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -371,41 +343,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AferPullRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qdai.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		425AF5691B6F382400C4BFFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AferPullRefreshTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AferPullRefresh.app/AferPullRefresh";
-			};
-			name = Debug;
-		};
-		425AF56A1B6F382400C4BFFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AferPullRefreshTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AferPullRefresh.app/AferPullRefresh";
 			};
 			name = Release;
 		};
@@ -428,14 +367,7 @@
 				425AF5671B6F382400C4BFFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		425AF5681B6F382400C4BFFA /* Build configuration list for PBXNativeTarget "AferPullRefreshTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				425AF5691B6F382400C4BFFA /* Debug */,
-				425AF56A1B6F382400C4BFFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
